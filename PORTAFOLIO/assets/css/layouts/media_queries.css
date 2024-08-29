@@ -1,0 +1,66 @@
+/* Pantallas pequeñas */
+@media (max-width: 600px) {
+    .overlay-text {
+        padding-left: 10px; 
+        font-size: 14px; 
+    }
+
+    .form-container {
+        max-width: 90%; 
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 16px; 
+    }
+
+    .custom-card, .card-body {
+        padding: 10px; 
+    }
+
+    .content-center {
+        text-align: center; 
+    }
+}
+
+/* Pantallas medianas */
+@media (min-width: 600px) and (max-width: 920px) {
+    .overlay-text {
+        padding-left: 15px; 
+        font-size: 16px; 
+    }
+
+    .form-container {
+        max-width: 80%; 
+    }
+
+    .btn {
+        width: auto; 
+        font-size: 18px;
+    }
+
+    .custom-card, .card-body {
+        padding: 15px; 
+    }
+}
+
+/* Pantallas grandes */
+@media (min-width: 920px) {
+    .overlay-text {
+        padding-left: 20px;
+        font-size: 18px; 
+    }
+
+    .form-container {
+        max-width: 600px; 
+    }
+
+    .btn {
+        width: auto; 
+        font-size: 20px;
+    }
+
+    .custom-card, .card-body {
+        padding: 20px; 
+    }
+}
